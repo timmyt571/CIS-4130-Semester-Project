@@ -92,7 +92,7 @@ for blob in filtered_blobs:
 
 #calculate word count for each 'review_detail'
 all_data['word_count'] = all_data['review_detail'].apply(lambda x: len(str(x).split()) if pd.notnull(x) else 0)
-# group by 'rating' and calculate the average word count
+#group by 'rating' and calculate the average word count
 rating_word_count = all_data.groupby('rating')['word_count'].mean().reset_index()
 
 #histogram of ratings with the average word count

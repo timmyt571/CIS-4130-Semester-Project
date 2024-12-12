@@ -1,4 +1,5 @@
 IMDb Review Ratings Prediction
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Goal: I plan to predict the user rating on the movie. I will create a regression model that will utilize various features such as the review text, helpful votes, movie name, and release year to make predictions on the viewers rating of the movie.
 
 Motivation: I wanted to find out whether the movies were good or not based on reviews.
